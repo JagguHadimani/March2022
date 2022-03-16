@@ -1,0 +1,35 @@
+package com.HarshaJava.Practice;
+
+public class ConstructorOverloading {
+	int i;
+	int ii;
+	double dd;
+	
+	
+	ConstructorOverloading()
+	{
+		i=10;
+	}
+	
+	ConstructorOverloading(int a)
+	{
+		i=12;
+	}
+	
+	ConstructorOverloading(int b, int c)
+	{
+		dd=12.25;
+	}
+	
+	ConstructorOverloading(int d, double e)
+	{
+		dd=25.25;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ConstructorOverloading co = new ConstructorOverloading();
+		
+	}
+
+}

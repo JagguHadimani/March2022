@@ -1,0 +1,29 @@
+package javaPractice;
+
+public class ToStringMethod {
+	int rollno;
+	String name;
+	String city;
+
+	ToStringMethod(int rollno, String name, String city) {// constructor
+		this.rollno = rollno;
+		this.name = name;
+		this.city = city;
+	}
+
+	public String toString() {// overriding the toString() method
+		return rollno + " " + name + " " + city;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ToStringMethod s1 = new ToStringMethod(101, "Ravi", "Richmond");
+		ToStringMethod s2 = new ToStringMethod(102, "Jagadish", "Bangalore");
+		ToStringMethod s3 = new ToStringMethod(103, "Srinivas", "Manchester");
+		System.out.println(s1);// compiler writes here s1.toString() and the o/p will be :
+								// javaPractice.ToStringMethod@7852e922
+		System.out.println(s2);// so to get the actual content of the object we need to override the toStirng()
+		System.out.println(s3);
+	}
+
+}

@@ -1,0 +1,52 @@
+package javaPractice;
+
+public class ArrayConcepts {
+
+	public static void main(String[] args) 
+	{
+
+		/* What is Static Array in Java - Core Java - Part - 4 - https://www.youtube.com/watch?v=LBgQBb5pxXs
+		 * Arrays are used to hold homogeneous data using a single variable. 
+		 * Ex: if we have 10 apples we need not have to declare 10 variables to store 10 apples
+		 * instead we declare 1 variables and store all the apples in one array. 
+		 * We retrieve those apples by indexing.
+		 */
+		
+		//One Dimensional Array
+		//Disadvantage - fixed array size. Can not scale up or down once set. 
+
+		//declaring an int array
+		int i[] = new int[4];
+		i[0] = 50;
+		i[1] = 10;
+		i[2] = 20;
+		i[3] = 40;
+		//i[4] = 30;
+		System.out.println(i[3]);
+		System.out.println(i.length);
+		
+		System.out.println("********via for loop*****************");
+		for(int j=0; j< i.length;j++)
+		{
+			System.out.println(i[j]);
+		}
+		
+		//2. Double Arrya
+		System.out.println("********double array*****************");
+		double d[] = new double[3];
+		d[0]= 2.00;
+		d[1] = 4.25;
+		d[2] = 6.50;
+		System.out.println(d[2]);
+		
+		// 3. Char array
+		System.out.println("********char array*****************");
+		char c [] = new char[3];
+		c[0] = 'g';
+		c[1] = 2;
+		c[2] = '#';
+		System.out.println(c[0]);
+	}
+
+}
+ 

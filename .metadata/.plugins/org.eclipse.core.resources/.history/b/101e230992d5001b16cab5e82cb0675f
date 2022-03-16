@@ -1,0 +1,19 @@
+package javaPractice;
+
+public class ArrayConcepts {
+
+	public static void main(String[] args) 
+	{
+		
+		/* What is Static Array in Java - Core Java - Part - 4 - https://www.youtube.com/watch?v=LBgQBb5pxXs
+		 * Arrays are used to hold homogeneous data using a single variable. 
+		 * Ex: if we have 10 apples we need not have to declare 10 variables to store 10 apples
+		 * instead we declare 1 variables and store all the apples in one array. 
+		 * We retrieve those apples by indexing.
+		*/
+		
+		//declaring an int array
+		
+	}
+
+}
